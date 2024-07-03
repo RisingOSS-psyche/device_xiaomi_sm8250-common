@@ -57,6 +57,9 @@ USE_CUSTOM_AUDIO_POLICY := 1
 TARGET_BOOTLOADER_BOARD_NAME := kona
 TARGET_NO_BOOTLOADER := true
 
+# Camera
+TARGET_USES_YCRCB_CAMERA_ENCODE := true
+
 # Camera - HIDL overrideFormat
 TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT = true
 # Camera - HIDL overrideFormat - Alternative Version
