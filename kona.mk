@@ -272,6 +272,7 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 PRODUCT_PACKAGES += \
     CarrierConfigCommonOverlay \
     FrameworksCommonOverlay \
+    NetworkStackOverlayCN \
     SettingsCommonOverlay \
     SettingsProviderCommonOverlay \
     SystemUICommonOverlay \
