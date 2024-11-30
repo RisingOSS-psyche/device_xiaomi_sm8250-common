@@ -189,6 +189,10 @@ PRODUCT_PACKAGES += \
 endif
 endif
 
+# Hail
+PRODUCT_PACKAGES += \
+    Hail
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti
