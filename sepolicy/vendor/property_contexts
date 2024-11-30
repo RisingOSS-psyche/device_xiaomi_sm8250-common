@@ -98,7 +98,7 @@ ro.vendor.oem.sno                                                               
 ro.vendor.oem.psno                                                                                  u:object_r:vendor_sno_prop:s0
 
 # Iwlan
-persist.vendor.iwlan.logging.logcat                                                                 u:object_r:vendor_cnd_vendor_prop:s0
+#persist.vendor.iwlan.logging.logcat                                                                 u:object_r:vendor_cnd_vendor_prop:s0
 
 # Mlipay
 persist.vendor.sys.pay                                                                              u:object_r:vendor_tee_listener_prop:s0
