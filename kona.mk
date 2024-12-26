@@ -260,8 +260,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     media_codecs_c2.xml \
     media_codecs_performance_c2.xml \
-    media_codecs_kona.xml \
-    media_codecs_performance_kona.xml \
     video_system_specs.json
 
 # MIUI Camera
@@ -298,16 +296,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.nxp.mifare.xml
 
 # OMX
-PRODUCT_PACKAGES += \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
-    libOmxVdec \
-    libOmxVenc \
-    libstagefrighthw
+TARGET_SUPPORTS_OMX_SERVICE := false
 
 # Overlays
 PRODUCT_PACKAGES += \
